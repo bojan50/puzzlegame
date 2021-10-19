@@ -1,0 +1,45 @@
+body{
+    color: rgb(255, 255, 255);
+}
+
+.menu{
+    background-image: url("../zr_Bojan_Cipovic_rt-5516/slike/bgr.png");
+    width: 600px;
+    height: 700px;
+    margin-left: 630px;
+    border: 3px black;
+    border-style: ridge;
+    margin-top: 50px;
+}
+
+
+h1{
+    margin-left: -10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75px;
+    font-style: oblique;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+
+p{
+    font-size: 20px;
+    margin: 20px;
+    
+}
+
+#arrow{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 760px;
+    left: 1195px;
+}
+
+h2{
+    font-family: bold;
+    color: yellow;
+    margin-left: 225px;
+}
+

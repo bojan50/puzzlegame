@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"></meta>
+    <link rel="stylesheet" href="pokusajv2.css">
+    <script src="pokusajv2.js" type="text/javascript"></script>
+    <script src="funkcije.js" type="text/javascript"></script>
+    <title>Puzla</title>
+</head>
+<body>
+    <div id="pozadina"></div>
+    <h1>Bojanova puzla</h1>
+    <div class="efekti">
+        <form id="puzla" action="">
+            <div id="gridPuzle">
+                <div id="grid0" class="grid"></div>
+                <div id="grid1" class="grid"></div>
+                <div id="grid2" class="grid"></div>
+                <div id="grid3" class="grid"></div>
+			    <div id="grid4" class="grid"></div>
+                <div id="grid5" class="grid"></div>
+                <div id="grid6" class="grid"></div>
+                <div id="grid7" class="grid"></div>
+                <div id="grid8" class="grid"></div>
+			    <div id="grid9" class="grid"></div>
+                <div id="grid10" class="grid"></div>
+                <div id="grid11" class="grid"></div>
+                <div id="grid12" class="grid"></div>
+                <div id="grid13" class="grid"></div>
+			    <div id="grid14" class="grid"></div>
+                <div id="grid15" class="grid"></div>
+                <div id="grid16" class="grid"></div>
+                <div id="grid17" class="grid"></div>
+                <div id="grid18" class="grid"></div>
+			    <div id="grid19" class="grid"></div>
+                <div id="grid20" class="grid"></div>
+                <div id="grid21" class="grid"></div>
+                <div id="grid22" class="grid"></div>
+                <div id="grid23" class="grid"></div>
+			    <div id="grid24" class="grid"></div>
+            </div>
+            <div id="deloviPuzle">
+                <div id="piece0" class="delovi"></div>
+                <div id="piece1" class="delovi"></div>
+                <div id="piece2" class="delovi"></div>
+                <div id="piece3" class="delovi"></div>
+			    <div id="piece4" class="delovi"></div>
+                <div id="piece5" class="delovi"></div>
+                <div id="piece6" class="delovi"></div>
+                <div id="piece7" class="delovi"></div>
+                <div id="piece8" class="delovi"></div>
+			    <div id="piece9" class="delovi"></div>
+                <div id="piece10" class="delovi"></div>
+                <div id="piece11" class="delovi"></div>
+                <div id="piece12" class="delovi"></div>
+                <div id="piece13" class="delovi"></div>
+			    <div id="piece14" class="delovi"></div>
+                <div id="piece15" class="delovi"></div>
+                <div id="piece16" class="delovi"></div>
+                <div id="piece17" class="delovi"></div>
+                <div id="piece18" class="delovi"></div>
+			    <div id="piece19" class="delovi"></div>
+                <div id="piece20" class="delovi"></div>
+                <div id="piece21" class="delovi"></div>
+                <div id="piece22" class="delovi"></div>
+                <div id="piece23" class="delovi"></div>
+			    <div id="piece24" class="delovi"></div>
+            </div>
+    </div>
+    
+    <div id="controls" class="aligncenter">
+        <p>
+            <input type="button" id="zavrsi" value="Zavrsi"/>
+            <input type="button" id="izmesaj" value="Izmesaj"/>
+        </p>
+    </div>
+    <div id="win" onclick="osvezi()" style="display: none;">
+        <img src="../zr_Bojan_Cipovic_rt-5516/slike/win.jpg" alt="">
+    </div>
+    <div id="gameover" onclick="osvezi()" style="display: none;">
+        <img src="../zr_Bojan_Cipovic_rt-5516/slike/gameover.jpg" alt="" >
+    </div>
+    
+    <p id="vreme"></p>
+
+    <input id="btnpomoc" type="button" value="Pomoć" onclick="pokazi();"/>
+    <img src="../zr_Bojan_Cipovic_rt-5516/slike/moskva1.jpg" style="visibility:hidden" id="loadingImage">
+    
+    <a href="index.html"><img src="../zr_Bojan_Cipovic_rt-5516/slike/arrow.jpg" id="arrow" alt=""></a>
+</body>
+</html>
